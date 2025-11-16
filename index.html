@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Computer Vision Scientist Portfolio - Amrith Coumaran">
+    <title>Amrith Coumaran - Computer Vision Scientist</title>
+    <link rel="stylesheet" href="styles.css?v=3.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" class="nav-brand-link">
+                    <span class="nav-brand-line"></span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#patents">Patents</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#academic-service">Service</a></li>
+                <li><a href="#talks">Talks</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle theme" id="themeToggle">
+                    <svg class="theme-icon sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-icon moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title"><span class="highlight">Amrith Coumaran</span></h1>
+                    <p class="hero-subtitle">Computer Vision Scientist · Santa Clara, California</p>
+                    <p class="hero-description">Specializing in object detection, segmentation, and self-supervised learning. Currently at Orbital Insight, on a mission to build the next generation of AI for geo-spatial data.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-secondary"><span>Get In Touch</span></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="amrith.jpg" alt="Amrith Coumaran" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <p class="section-label">WORK EXPERIENCE</p>
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Computer Vision Scientist III</h3>
+                            <p class="experience-company">Orbital Insight · Palo Alto, CA</p>
+                        </div>
+                        <span class="experience-date">Apr 2025 - Present</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Revamped and upgraded the computer vision model training infrastructure from detectron2 to MM library.</li>
+                        <li>Led research projects related to self-supervised learning, multi-modal learning and foundational models for geo-spatial data.</li>
+                        <li>Led research projects in developing custom edge computer vision models for drone deployment.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Computer Vision Scientist II</h3>
+                            <p class="experience-company">Orbital Insight · Palo Alto, CA</p>
+                        </div>
+                        <span class="experience-date">June 2023 - Apr 2025</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Trained and developed Object Detection and Segmentation algorithms using remote sensing imagery such as Electro-Optical (EO) and Synthetic Aperture Radar (SAR) and deployed them on our in-house platform.</li>
+                        <li>Engaged in all stages of the model development life cycle, encompassing tasks from defining data requirements, metrics, and labeling needs to deploy final models as integral components of the product.</li>
+                        <li>Conducted research and implemented rapid iterations of algorithms to enhance performance and adaptability to novel datasets and methodology, ensuring continuous improvement and optimization.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Computer Vision Intern</h3>
+                            <p class="experience-company">Orbital Insight · Palo Alto, CA</p>
+                        </div>
+                        <span class="experience-date">May 2022 - Aug 2022</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Trained key-point-based multi-class object detection algorithm on Remote sensing Geo-spatial imagery data and achieved a 20% increase in model performance compared to their existing model and reduced the inference time by 10 seconds.</li>
+                        <li>Used ensemble model which makes use of the predicted key-points data for fine-grain classifications of aircraft.</li>
+                        <li>Integrated and worked with tools like Kubeflow, MLflow, and AWS for training, tracking, and deployment of Machine Learning experiments.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Machine Learning Intern</h3>
+                            <p class="experience-company">E-con Systems · Chennai, India</p>
+                        </div>
+                        <span class="experience-date">Nov 2020 - Apr 2021</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Developed Nvidia Deepstream Computer vision applications for use-cases in security, monitoring, and warehouse automation on various Nvidia Jetson devices - Tx2, Xavier-AGX, and Jetson Nano.</li>
+                        <li>Led and designed a tracker evaluation module using MOT metrics for comparing different tracker systems for internal use and used it to compare our tracker performance on the Nvidia DeepStream pipeline to built-in DeepStream trackers.</li>
+                        <li>Worked with the marketing team to come up with solutions to solve new and existing business needs using Nvidia DeepStream.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Computer Vision Intern</h3>
+                            <p class="experience-company">DeepQuanty AI Labs · Chennai, India</p>
+                        </div>
+                        <span class="experience-date">Aug 2020 - Nov 2020</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Trained Deep Learning OCR model for information extraction from handwritten documents and achieved up to 85% F1 score for handwritten detection models, which was a 10% increase from their existing method.</li>
+                        <li>Generated custom synthetic data for training Computer Vision models for text extraction from bank cheques and loan forms using traditional image processing techniques.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <p class="section-label">TECHNICAL SKILLS</p>
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>ML Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Caffe</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">PyPlot</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Tableau</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Services</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Pillow</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Flash</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">GStreamer</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">MLFlow</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <p class="section-label">EDUCATION</p>
+            <h2 class="section-title">Academic Background</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3 class="education-degree">Master of Science, Electrical Engineering</h3>
+                    <p class="education-school">University of Southern California</p>
+                    <p class="education-date">May 2023</p>
+                    <p class="education-courses">Courses: Machine Learning, Deep Learning, Linear Algebra, Probability, Optimization, Computer Vision, Medical AI</p>
+                </div>
+                <div class="education-item">
+                    <h3 class="education-degree">Bachelor of Engineering, Electronics and Communication Engineering</h3>
+                    <p class="education-school">SRM Institute of Science and Technology</p>
+                    <p class="education-date">July 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <p class="section-label">PUBLICATIONS</p>
+            <h2 class="section-title">Research Contributions</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3 class="publication-title">Smart Glass: Real-time Leaf Disease Detection using YOLO Transfer Learning</h3>
+                    <p class="publication-venue">ICCSP IEEE Conference, July 2020</p>
+                </div>
+                <div class="publication-item">
+                    <h3 class="publication-title">Automated Plant Disease Detection and Pesticide Dispenser using Machine Learning</h3>
+                    <p class="publication-venue">Journal of Advanced Research in Dynamical and Control Systems, October 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patents Section -->
+    <section id="patents" class="patents">
+        <div class="container">
+            <p class="section-label">PATENTS</p>
+            <h2 class="section-title">Intellectual Property</h2>
+            <div class="patents-list">
+                <div class="patent-item">
+                    <h3 class="patent-title">A system and a device for identifying plant disease</h3>
+                    <p class="patent-number">Patent Number: 564969</p>
+                    <p class="patent-issuer">Approved by The Indian Patent Office</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <p class="section-label">LEADERSHIP</p>
+            <h2 class="section-title">Leadership & Achievements</h2>
+            <div class="leadership-grid">
+                <div class="leadership-item">
+                    <h3 class="leadership-title">Co-Founder, ILAN Solutions</h3>
+                    <p class="leadership-period">Apr 2020 - Feb 2021</p>
+                    <p class="leadership-description">Founded and engineered a student start-up amidst the COVID-19 pandemic, primarily targeting small and medium scale Enterprises in India and offering Industry 4.0 Software Solutions. Also won a small fund from University of Bristol, UK to develop the idea.</p>
+                </div>
+                <div class="leadership-item">
+                    <h3 class="leadership-title">Best Project and Best Interdisciplinary Data Scientist Award</h3>
+                    <p class="leadership-period">CKIDS DataFeast, Apr 2022</p>
+                    <p class="leadership-description">Won the best project award for a research project titled "Scientific Concept Discovery Using Machine Learning" under Prof. Marcin Abram.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Service Section -->
+    <section id="academic-service" class="academic-service">
+        <div class="container">
+            <p class="section-label">ACADEMIC SERVICE</p>
+            <h2 class="section-title">Conference Review & Service</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3 class="service-title">TCP Member and Reviewer</h3>
+                    <p class="service-venue">IEEE International Conference on Communication and Signal Processing (ICCSP) 2025, 2026</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-title">TCP Member and Reviewer</h3>
+                    <p class="service-venue">IEEE GRSS EarthSense 2025</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-title">Reviewer</h3>
+                    <p class="service-venue">IEEE International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA) 2025, 2026</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-title">Reviewer</h3>
+                    <p class="service-venue">Women in Computer Vision Workshop, ICCV 2025</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-title">Reviewer</h3>
+                    <p class="service-venue">Workshop on Test time adaptation, ICML 2025</p>
+                </div>
+                <div class="service-item">
+                    <h3 class="service-title">Reviewer</h3>
+                    <p class="service-venue">IEEE India Geoscience and Remote Sensing Society Symposium 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks Section -->
+    <section id="talks" class="talks">
+        <div class="container">
+            <p class="section-label">TALKS</p>
+            <h2 class="section-title">Speaking Engagements</h2>
+            <div class="talks-list">
+                <a href="https://machinelearningweek.com/session/eyes-in-the-sky-computer-vision-for-geospatial-intelligence/" target="_blank" rel="noopener noreferrer" class="talk-item">
+                    <h3 class="talk-title">Eyes in the Sky: Computer Vision for Geospatial Intelligence</h3>
+                    <p class="talk-venue">Machine Learning Week 2025, Phoenix</p>
+                </a>
+                <a href="https://cvpr.thecvf.com/virtual/2025/mentorship/35942" target="_blank" rel="noopener noreferrer" class="talk-item">
+                    <h3 class="talk-title">Speed Mentorship</h3>
+                    <p class="talk-venue">CVPR 2025 (chosen among very established 12 industry professionals)</p>
+                </a>
+                <a href="https://ai4.io/speakers/" target="_blank" rel="noopener noreferrer" class="talk-item">
+                    <h3 class="talk-title">Computer Vision and Geo-spatial Analytics</h3>
+                    <p class="talk-venue">Ai4 2025, Vegas</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Academic Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <p class="section-label">PAST ACADEMIC PROJECTS</p>
+            <h2 class="section-title">Past Academic Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-name">Adversarial Learning</h3>
+                            <p class="project-category">Research Project</p>
+                        </div>
+                        <p class="project-description">
+                            Attacked the model with gradient based adversarial attacks like Fast Gradient Sign Method 
+                            and Iterative method and observed the generalizability of the model performance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Adversarial Attacks</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-name">Deep Image Super Resolution</h3>
+                            <p class="project-category">Research Project</p>
+                        </div>
+                        <p class="project-description">
+                            Trained ResNet and SRGAN deep learning models to generate Super Resolution image from 
+                            low resolution images. Utilized Custom losses to enhance perceptual quality of output. 
+                            Accelerated the training process with mixed precision training and gradient scaling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">ResNet</span>
+                            <span class="tech-tag">SRGAN</span>
+                            <span class="tech-tag">Mixed Precision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-name">Loss Landscape Visualization</h3>
+                            <p class="project-category">Research Project</p>
+                        </div>
+                        <p class="project-description">
+                            Compared different Machine Learning model's generalizability using their 3-D loss landscape, 
+                            a part of a research project focused on Scientific Concept Discovery Using Machine Learning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Visualization</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">
+                I'm always open to discussing computer vision research opportunities, collaborations, 
+                or interesting projects. Let's connect and explore how computer vision can solve your challenges!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:acamrithc@gmail.com" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/amrithc" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://medium.com/@amrithc" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                    </svg>
+                    <span>Medium</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Amrith Coumaran. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
